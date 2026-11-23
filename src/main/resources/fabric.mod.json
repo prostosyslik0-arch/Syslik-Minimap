@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "syslik_minimap",
+  "version": "${version}",
+  "name": "Syslik Minimap",
+  "description": "A lightweight Fabric minimap and waypoint mod.",
+  "authors": ["prostosyslik0-arch"],
+  "contact": {
+    "homepage": "https://github.com/prostosyslik0-arch/Syslik-Minimap"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.prostosyslik0.syslikminimap.SyslikMinimap"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
